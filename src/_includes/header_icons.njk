@@ -1,4 +1,4 @@
-<!-- To do: move icons, change text colour to match colour scheme -->
+<!-- To do: revert to previous code for header wrappers (like on published website) but make home icon a "back" button instead, change text colour to match colour scheme, make picture nicer cropped -->
 
 <style>
   .icon-buttons2 {
@@ -25,16 +25,25 @@
 .icon-buttons2 a {
   padding-left:10px;
 }
+
+h2.home-wrapper {
+    font-size: 2.6rem; /* this is the default font size in this stylesheet */
+}
 </style>
 
 <a href="/" class="accent small">
   <h2 class="home-wrapper">
-    <i class="fas fa-home" style="color:black;"></i>
+    <i class="fas fa-home"></i>
   </h2>
   <a href="/" class="accent small">
 <a href="#" onclick="goBack();" class="accent">
-  <h2 class="center-wrapper" style="font-size: 1.5em; color:black;">Back to previous page</h2>
+  <h2 class="center-wrapper">Back to previous page</h2>
 </a>
+<br>
+<br>
+    <!-- title -->
+        <h1 class="center-wrapper" style="font-size: 2.4em;">Curriculum Vitae</h1>
+ 
 
 <!-- move icons
 <div class="icon-buttons2 icon-buttons3">
@@ -67,3 +76,10 @@
     }
   }
 </script>
+
+<!-- If I want to include arrow-turn:
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<i class="fa-solid fa-arrow-turn-up fa-rotate-270"></i>
+
+-->
