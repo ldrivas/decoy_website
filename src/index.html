@@ -3,6 +3,23 @@ title: Lucien Drivas | Portfolio
 layout: base.njk
 ---
 
+<style>
+.center-wrapper2 {
+  display: flex;
+  justify-content: left; /* Horizontally center the content */
+  align-items: left;
+  gap: 15px;
+  width: 100%; /* Stretch the width across its parent */
+}
+        
+.center-wrapper2 img {
+  margin-right: 10px;  /* Adjust this value according to your needs */
+  align-items: left;
+  display: inline;  /* Reset the display property */
+  margin: 0;        /* Remove all margins */
+  max-width: none;  /* Reset max-width, or adjust as necessary */
+}
+</style>
 <div class="index-wrapper">
   <div class="avatar-container">
     <img class="avatar" src="/img/iconroundsmall.png" alt="Avatar">
@@ -29,11 +46,16 @@ layout: base.njk
     </a>
   </div>
   <div class="link-tiles">
-    <a style="background-color: #ea8642;" href="/">Home</a>
-    <a style="background-color: #d89294;" href="/cv/">Work Experience</a>
-    <a style="background-color: #d05d3b;" href="/map/">Heritage Map (VR Project Prototype)</a>
-    <a style="background-color: #d89294;" href="/projects/">Blogs & Other Projects</a>
-    <a style="background-color: #d05d3b;" href="/contact/">Contact</a>
+    <a style="background-color: #ea8642;" href="/" class="center-wrapper2" style="font-size: 1rem;">
+      Home</a>
+      <a style="background-color: #d89294;" href="/cv/" class="center-wrapper2" style="font-size: 1rem;">
+        Work Experience</a>
+        <a style="background-color: #d05d3b;" href="/map/" class="center-wrapper2" style="font-size: 1rem;">
+          Heritage Map (VR Project Prototype)</a>
+          <a style="background-color: #d89294;" href="/projects/" class="center-wrapper2" style="font-size: 1rem;">
+            Blogs & Other Projects</a>
+            <a style="background-color: #d05d3b;" href="/contact/" class="center-wrapper2" style="font-size: 1rem;">
+              Contact</a>
   </div>
 </div>
 
