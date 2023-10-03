@@ -41,6 +41,18 @@
     align-items: center;
   }
 
+  .center-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4EBD2;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px 50px 0 0;
+    box-shadow: rgb(230, 139, 117) 10px 10px 0px 0px;
+    align-items: center;
+    gap: 15px;
+  }
+
   .icon-buttons3 svg {
     box-sizing: content-box;
     padding: 4px;
@@ -53,7 +65,27 @@
   h2.home-wrapper {
     font-size: 2.6rem;
   }
+  
+/* Hide home-wrapper button for screens with a max width of 768px */
+@media (max-width: 768px) {
+    .home-wrapper {
+        display: none;
+    }
+}
+
+/* Hide center-wrapper3 button for screens with a max width of 768px */
+@media (max-width: 768px) {
+    .center-wrapper3 {
+        display: none;
+    }
+}
 </style>
+<!-- if I want to add a home icon next to title insert the following:
+
+<a href="/" class="accent small">
+    <i class="fas fa-home" style="margin-right:40px;"></i></a>
+
+    -->
 
 <a href="/" class="accent small">
   <h2 class="home-wrapper">
@@ -61,8 +93,8 @@
   </h2>
 </a>
 
-<a href="#" onclick="goBack();" class="accent">
-  <h2 class="center-wrapper">Lucien Drivas | Portfolio</h2>
+<a href="#" onclick="goBack();" class="accent" style="margin-left:5px;">
+  <h2 class="center-wrapper3">Lucien Drivas | Portfolio</h2>
 </a>
 
 <br><br>
