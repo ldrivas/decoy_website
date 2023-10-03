@@ -7,68 +7,64 @@ layout: layout_with_header.njk
   body {
       font-family: Arial, sans-serif;
       line-height: 1.5;
-      margin: 2em;
+      margin: 2em auto;
       max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
   }
-  p {
-  margin-top: 0.01rem;    /* Adjust as necessary */
-  margin-bottom: 0.2rem; /* Adjust as necessary */
-  }
-  h1 {
-  margin-top: 0.01rem;    /* Adjust as necessary */
-  margin-bottom: 0.2rem; /* Adjust as necessary */
-  }
-  h2 {
-  margin-top: 0.01rem;    /* Adjust as necessary */
-  margin-bottom: 0.2rem; /* Adjust as necessary */
-  }
-  h3 {
-  margin-top: 0.01rem;    /* Adjust as necessary */
-  margin-bottom: 0.2rem; /* Adjust as necessary */
+
+  p, h1, h2, h3 {
+      margin-top: 0.01rem;
+      margin-bottom: 0.2rem;
   }
   
   .header-container {
-            display: flex;
-            align-items: center;
-        }
-        
-        .header-container img {
-            margin-right: 10px;  /* Adjust this value according to your needs */
-        }  
-.center-wrapper2 {
-  display: flex;
-  justify-content: center; /* Horizontally center the content */
-  align-items: center;
-  gap: 15px;
-  width: 100%; /* Stretch the width across its parent */
-}
-        
-.center-wrapper2 img {
-  margin-right: 10px;  /* Adjust this value according to your needs */
-  align-items: center;
-  display: inline;  /* Reset the display property */
-  margin: 0;        /* Remove all margins */
-  max-width: none;  /* Reset max-width, or adjust as necessary */
-}
+      display: flex;
+      align-items: center;
+  }
+  
+  .header-container img,
+  .center-wrapper2 img {
+      margin-right: 10px;
+  }
+
+  .center-wrapper2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      width: 100%;
+  }
+
+  .center-wrapper2 img {
+      align-items: center;
+      display: inline;
+      margin: 0;
+      max-width: none;
+  }
+
+  #image-container {
+      position: relative;
+  }
+  
+  h1.center-wrapper2 {
+      font-size: 2.4em;
+  }
 </style>
-<h1 class="center-wrapper2" style="font-size: 2.4em;"><img src="/img/treasure-map.png/">Heritage Map</h1>
-<p>The below is a map of Adelaide's Central Business District, aiming to highlight differences in architecture and infrastructure between settlment and now.</p>
+
+<h1 class="center-wrapper2"><img src="/img/treasure-map.png" alt="Treasure Map">Heritage Map</h1>
+<p>The below is a map of Adelaide's Central Business District, aiming to highlight differences in architecture and infrastructure between settlement and now.</p>
 <p>Try clicking on Hindmarsh Square!</p>
-<div id="image-container" style="position: relative;">
+
+<div id="image-container">
   <img src="/img/map.png" id="image-map" alt="Adelaide CBD" usemap="#image-map">
   <map name="image-map">
     <area shape="rect" coords="250,250,300,300" data-popup="popup1">
     <area shape="rect" coords="x3,y3,x4,y4" data-popup="popup2">
-    <!-- Add more areas as needed -->
   </map>
   <div id="popup1" class="popup">
       <img src="/img/hindmarsh.jpg" alt="Photo 1">
       <p>People walk by while horses and carts trot the dry and dusty dirt roads. Due to the exposure time it took to capture this photograph, <a href="/map/hindmarsh">[read more...]</a></p>
       <p><a href="/360/streetviewhindmarsh/">Link to VR view.</a></p>
   </div>
-  
   <div id="popup2" class="popup">
       <img src="photo2.jpg" alt="Photo 2">
       <p>Text details for popup 2.</p>
