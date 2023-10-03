@@ -79,6 +79,13 @@
         display: none;
     }
 }
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* Center children horizontally */
+    justify-content: center;  /* Center children vertically */
+}
 </style>
 <!-- if I want to add a home icon next to title insert the following:
 
@@ -87,6 +94,7 @@
 
     -->
 
+<div class="header-container">
 <a href="/" class="accent small">
   <h2 class="home-wrapper">
     <i class="fas fa-home"></i>
@@ -96,9 +104,8 @@
 <a href="/" class="accent" style="margin-left:5px;">
   <h2 class="center-wrapper3">Lucien Drivas | Portfolio</h2>
 </a>
-
-<br><br>
-
+</div>
+<br>
 <h1 class="center-wrapper2" style="font-size: 2.4em;">
   <img src="/img/sketchbook.png"/> Curriculum Vitae
 </h1>

@@ -48,27 +48,42 @@ layout: layout_with_header.njk
   h1.center-wrapper2 {
       font-size: 2.4em;
   }
-  html {
-  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFGmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NjQ4LCAyMDIxLzAxLzEyLTE1OjUyOjI5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMiAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjEtMDMtMDRUMTY6Mzc6NDUtMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIxLTAzLTA0VDE2OjM5OjMyLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTAzLTA0VDE2OjM5OjMyLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkwZDMzNzUzLTAwOGEtNDE1NS04MTc1LTIwZjkwZWYxOTdiYyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MGQzMzc1My0wMDhhLTQxNTUtODE3NS0yMGY5MGVmMTk3YmMiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5MGQzMzc1My0wMDhhLTQxNTUtODE3NS0yMGY5MGVmMTk3YmMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjkwZDMzNzUzLTAwOGEtNDE1NS04MTc1LTIwZjkwZWYxOTdiYyIgc3RFdnQ6d2hlbj0iMjAyMS0wMy0wNFQxNjozNzo0NS0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjIgKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/umE5AAAAHJJREFUOI3NlEEOwCAIBN3G/3+ZHpptCJEqhhL3pgiMgEJEpG0IAEb7106wL3WVMeTIm1nSdMLzA/b5kUd2GMq6vBwQwNIk1NWQNbNUXJfN4bTLUdJ6QmZWJNbetD2d8E1n/0XvJXikdP+PMCrvp08nvAEeozA6rI9ZhQAAAABJRU5ErkJggg==), auto;
+
+  /* Reset the cursor for the entire document */
+html, body {
+    cursor: default;
 }
 
-a:hover, area:hover {
-  cursor: crosshair;
+/* Set the custom cursor for the body of the page */
+body {
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFGmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuMTY0NjQ4LCAyMDIxLzAxLzEyLTE1OjUyOjI5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMiAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMjEtMDMtMDRUMTY6Mzc6NDUtMDU6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDIxLTAzLTA0VDE2OjM5OjMyLTA1OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDIxLTAzLTA0VDE2OjM5OjMyLTA1OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjkwZDMzNzUzLTAwOGEtNDE1NS04MTc1LTIwZjkwZWYxOTdiYyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MGQzMzc1My0wMDhhLTQxNTUtODE3NS0yMGY5MGVmMTk3YmMiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5MGQzMzc1My0wMDhhLTQxNTUtODE3NS0yMGY5MGVmMTk3YmMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjkwZDMzNzUzLTAwOGEtNDE1NS04MTc1LTIwZjkwZWYxOTdiYyIgc3RFdnQ6d2hlbj0iMjAyMS0wMy0wNFQxNjozNzo0NS0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIyLjIgKE1hY2ludG9zaCkiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/umE5AAAAHJJREFUOI3NlEEOwCAIBN3G/3+ZHpptCJEqhhL3pgiMgEJEpG0IAEb7106wL3WVMeTIm1nSdMLzA/b5kUd2GMq6vBwQwNIk1NWQNbNUXJfN4bTLUdJ6QmZWJNbetD2d8E1n/0XvJXikdP+PMCrvp08nvAEeozA6rI9ZhQAAAABJRU5ErkJggg==), auto;
 }
 
-.place-item:hover {
-  cursor: crosshair;
+/* Change cursor to crosshair when hovering over an interactive spot on the image */
+#image-container area:hover, a:hover, .place-item:hover {
+    cursor: crosshair;
+}
+
+/* Reset cursor for the header and footer */
+.header-container, .footer-text {
+    cursor: default;
+}
+.short-break {
+  height: 1px; 
+  background: #000;  /* Or the color of your choice */
+  transform-origin: 50% 50%;
+  transform: scaleY(0.5);  /* This scales the 1px height to 0.5 pixels visually */
 }
 </style>
 
-<h1 class="center-wrapper2"><img src="/img/treasure-map.jpg" alt="Treasure Map">Heritage Map</h1>
+<h1 class="center-wrapper2"><img src="/img/treasure-map.png" alt="Treasure Map">"Treasure Map" Heritage Hunt</h1>
 <p>The below is a map of Adelaide's Central Business District, aiming to highlight differences in architecture and infrastructure between settlement and now.</p>
 <p>🗺️ This map was drawn in the year 1935 <a href="https://www.experienceadelaide.com.au/photo-library/historical-maps-of-adelaide/veale-map-1935/">by the engineer W.C.D. Veale!</a></p>
 <p>🔍 As you move your cursor over the map, it will transform into a crosshair over interactive spots. Clicking these areas will reveal historical insights or transport you into a virtual reality streetview journey.</p>
 <p>Try clicking on Hindmarsh Square!</p>
 
 <div id="image-container">
-  <img src="/img/Veale-Map-1935.png" id="image-map" alt="Adelaide CBD" usemap="#image-map">
+  <img src="/img/Veale-Map-1935.jpg" id="image-map" alt="Adelaide CBD" usemap="#image-map">
     <map name="image-map">
       <area shape="rect" coords="400,550,500,650" data-popup="popup1">
   </map>

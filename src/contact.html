@@ -4,48 +4,55 @@ layout: layout_with_header.njk
 ---
 
 <style>
-  body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      margin: 2em auto;
-      max-width: 700px;
-  }
 
-  p, h1, h2, h3 {
-      margin-top: 0.01rem;
-      margin-bottom: 0.2rem;
-  }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 2em auto;
+    max-width: 700px;
+}
 
-  h1, h3 {
-      text-decoration: underline;
-  }
+p, h1, h2, h3 {
+    margin-top: 0.01rem;
+    margin-bottom: 0.2rem;
+}
 
-  h2 {
-      font-size: 1.6em;
-  }
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
-  .italic-text {
-      font-style: italic;
-  }
+.header-container img,
+.center-wrapper2 img {
+    margin-right: 10px;
+}
 
-  .center-wrapper2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 15px;
-      width: 100%;
-  }
+.center-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
 
-  .center-wrapper2 img {
-      margin-right: 10px;
-      align-items: center;
-      display: inline;
-      margin: 0;
-      max-width: none;
-  }
+.center-wrapper2 img {
+    align-items: center;
+    display: inline;
+    margin: 0;
+    max-width: none;
+}
+
+#image-container {
+    position: relative;
+}
+
+h1.center-wrapper2 {
+    font-size: 2.4em;
+}
 
   .contact-title {
       font-size: 2.4em;
+      text-decoration: underline;
   }
 
   .contact-title img {

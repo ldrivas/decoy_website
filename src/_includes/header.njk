@@ -1,4 +1,5 @@
-<!-- To do: make icon less transparent/change colour -->
+<!-- To do: make icon less transparent/change colour 
+Add credit at bottom of map-->
 
 <style>
   .icon-buttons2 {
@@ -27,7 +28,14 @@
         display: none;
     }
 }
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* Center children horizontally */
+    justify-content: center;  /* Center children vertically */
+  }
 </style>
+<div class="header-container">
 <a href="/" class="accent small">
   <h2 class="home-wrapper">
     <i class="fas fa-home"></i>
@@ -36,7 +44,7 @@
 <a href="#" onclick="goBack();" class="accent">
   <h2 class="center-wrapper" style="font-size: 1.5em;">Back to previous page</h2>
 </a>
-
+</div>
 <script>
   function goBack() {
     var currentPath = window.location.pathname;
