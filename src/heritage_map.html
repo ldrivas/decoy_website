@@ -61,7 +61,7 @@ body {
 
 /* Change cursor to crosshair when hovering over an interactive spot on the image */
 #image-container area:hover, a:hover, .place-item:hover {
-    cursor: crosshair;
+    cursor: url("/img/xmedium.png"), auto; /* 'auto' as a fallback cursor */
 }
 
 /* Reset cursor for the header and footer */
@@ -74,21 +74,38 @@ body {
   transform-origin: 50% 50%;
   transform: scaleY(0.5);  /* This scales the 1px height to 0.5 pixels visually */
 }
+.x-marker {
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    background: url("/img/xsmall.png") no-repeat center center; 
+    background-size: contain;
+    pointer-events: none;
+}
+.counter {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 10;
+}
 </style>
 
 <h1 class="center-wrapper2"><img src="/img/treasure-map.png" alt="Treasure Map">"Treasure Map" Heritage Hunt</h1>
 <p>The below is a map of Adelaide's Central Business District, aiming to highlight differences in architecture and infrastructure between settlement and now.</p>
 <p>🗺️ This map was drawn in the year 1935 <a href="https://www.experienceadelaide.com.au/photo-library/historical-maps-of-adelaide/veale-map-1935/">by the engineer W.C.D. Veale!</a></p>
-<p>🔍 As you move your cursor over the map, it will transform into a crosshair over interactive spots. Clicking these areas will reveal historical insights or transport you into a virtual reality streetview journey.</p>
+<p>🔍 As you move your cursor over the map, it will transform into an "<span style="color:red"><b>X</b></span>" over interactive spots. Clicking these areas will reveal historical insights or transport you into a virtual reality streetview journey.</p>
 <p>Try clicking on Hindmarsh Square!</p>
 
 <div id="image-container">
   <img src="/img/Veale-Map-1935.jpg" id="image-map" alt="Adelaide CBD" usemap="#image-map">
     <map name="image-map">
-      <area shape="rect" coords="400,550,500,650" data-popup="popup1">
-      <area shape="rect" coords="270,500,340,550" data-popup="popup2">
-      <area shape="rect" coords="320,500,360,600" data-popup="popup3">
-      <area shape="rect" coords="200,400,300,600" data-popup="popup4">
+      <area shape="rect" coords="400,550,500,650" data-id="area1" data-popup="popup1">
+      <area shape="rect" coords="270,500,340,550" data-id="area2" data-popup="popup2">
+      <area shape="rect" coords="320,500,360,600" data-id="area3" data-popup="popup3">
+      <area shape="rect" coords="200,400,300,600" data-id="area4" data-popup="popup4">
   </map>
   <div id="popup1" class="popup">
       <img src="/img/hindmarsh.jpg" alt="Photo 1">
@@ -106,9 +123,10 @@ body {
         <p>This view is of considerable activity, as numerous people go about their daily business. A young family, children in hand, cross King William Street, while <a href="/heritage_map/hindley">[read more...]</a></p>
         <p><a href="/360/streetviewhindley/">Link to VR view.</a></p>
       </div>
-      <div id="dfdsf" class="popup">
-        <img src="photo2.jpg" alt="Photo 2">
-        <p>Text details for popup 2.</p>
+      <div id="popup4" class="popup">
+        <img src="/img/adelaide/lightsmall.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/streetviewlight/">Link to VR view.</a></p>
       </div>
 </div>
 <!--<p style="font-size:14px;"><i>All descriptions' credit to Alexander Cocks on his history Facebook group, <a href="https://www.facebook.com/groups/3448281651944687/">Adelaide Then And Now.</i></a></p>-->

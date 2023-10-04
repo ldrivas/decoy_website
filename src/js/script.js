@@ -31,9 +31,79 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
- /* map image */
+ /* map image new javascript version 
+*/
 
- document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
+  const areas = document.querySelectorAll('area');
+  const popups = document.querySelectorAll('.popup');
+  const imageMap = document.getElementById('image-map');
+  const imageContainer = document.getElementById('image-container');
+  const alreadyMarked = new Set();
+
+  // Create counter and append to the image container
+  const counter = document.createElement('div');
+  counter.className = 'counter';  // Use className for consistency
+  counter.innerHTML = '0/4';
+  counter.style.top = '20%';  // Moved down by 25%
+  counter.style.right = '15%'; // Moved left by 25% from the right
+  imageContainer.appendChild(counter);
+
+  areas.forEach(area => {
+      area.addEventListener('click', function(e) {
+          const popupId = area.getAttribute('data-popup');
+          const popup = document.getElementById(popupId);
+          const areaId = area.getAttribute('data-id');
+
+          if (popup) {
+              popups.forEach(popup => {
+                  popup.style.display = 'none';
+                  imageMap.style.filter = 'grayscale(0%) brightness(1)';
+              });
+
+              popup.style.display = 'block';
+              imageMap.style.filter = 'grayscale(75%) brightness(0.5)';
+          }
+
+          if (!alreadyMarked.has(areaId)) {
+              alreadyMarked.add(areaId);
+              
+              // Update counter value
+              counter.innerHTML = `${alreadyMarked.size}/4`;
+
+              // Create marker
+              createMarker(e);
+          }
+
+          e.stopPropagation(); // Prevents this click from being immediately captured by the document click listener
+      });
+  });
+
+  function createMarker(e) {
+      const marker = document.createElement('div');
+      marker.className = 'x-marker';
+      marker.style.top = (e.clientY - imageContainer.getBoundingClientRect().top - 10) + 'px';
+      marker.style.left = (e.clientX - imageContainer.getBoundingClientRect().left - 10) + 'px';
+      imageContainer.appendChild(marker);
+  }
+
+  // Handle the case where the user clicks outside the popup
+  document.addEventListener('click', function(event) {
+      if (!event.target.closest('.popup') && !event.target.closest('area')) {
+          popups.forEach(popup => {
+              popup.style.display = 'none';
+              imageMap.style.filter = 'grayscale(0%) brightness(1)';
+          });
+      }
+  });
+});
+
+
+
+
+/* map image original javascript version (no x) 
+
+document.addEventListener('DOMContentLoaded', function() {
     const areas = document.querySelectorAll('area');
     const popups = document.querySelectorAll('.popup');
     const imageMap = document.getElementById('image-map');
@@ -63,7 +133,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
     });
-  });
+});
+
+  */
 
 /* food map */
 
