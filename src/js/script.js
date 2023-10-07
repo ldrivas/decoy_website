@@ -79,11 +79,14 @@ document.addEventListener('DOMContentLoaded', function() {
                   popup.style.display = 'none';
                   imageMap.style.filter = 'grayscale(0%) brightness(1)';
                   counter.style.filter = 'grayscale(0%) brightness(1)';
+                  restartButton.style.filter = 'grayscale(75%) brightness(0.5)';  // <-- Add this line
               });
 
               popup.style.display = 'block';
               imageMap.style.filter = 'grayscale(75%) brightness(0.5)';
               counter.style.filter = 'grayscale(75%) brightness(0.5)';
+              restartButton.style.filter = 'grayscale(75%) brightness(0.5)';  // <-- Add this line
+
           }
 
           if (!alreadyMarked.has(areaId)) {
