@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add event listener to the restart button
   const restartButton = document.querySelector('.restart-button');
   restartButton.addEventListener('click', function() {
+      if(restartButton.classList.contains('disabled')) return;
       sessionStorage.removeItem('markedAreas'); // Clear marked areas from session storage
       location.reload(); // Refresh the page
   });
@@ -80,6 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   imageMap.style.filter = 'grayscale(0%) brightness(1)';
                   counter.style.filter = 'grayscale(0%) brightness(1)';
                   restartButton.style.filter = 'grayscale(75%) brightness(0.5)';  // <-- Add this line
+                  restartButton.classList.add('disabled');
               });
 
               popup.style.display = 'block';
@@ -127,6 +129,8 @@ document.addEventListener('DOMContentLoaded', function() {
               popup.style.display = 'none';
               imageMap.style.filter = 'grayscale(0%) brightness(1)';
               counter.style.filter = 'grayscale(0%) brightness(1)';
+              restartButton.style.filter = 'none';  // Reset the restart button filter to its default state
+              restartButton.classList.remove('disabled');
           });
       }
   });
