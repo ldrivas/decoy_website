@@ -38,14 +38,34 @@ document.addEventListener('DOMContentLoaded', function() {
   const popups = document.querySelectorAll('.popup');
   const imageMap = document.getElementById('image-map');
   const imageContainer = document.getElementById('image-container');
-  const alreadyMarked = new Set();
+  const alreadyMarked = new Set(sessionStorage.getItem('markedAreas') ? JSON.parse(sessionStorage.getItem('markedAreas')) : []);
 
-  // Create counter and append to the image container
+  // Add event listener to the restart button
+  const restartButton = document.querySelector('.restart-button');
+  restartButton.addEventListener('click', function() {
+      sessionStorage.removeItem('markedAreas'); // Clear marked areas from session storage
+      location.reload(); // Refresh the page
+  });
+  
+  // Close all popups by default when page loads
+  popups.forEach(popup => {
+      popup.style.display = 'none';
+  });
+
+  // If areas were already marked from a previous session, show them
+  alreadyMarked.forEach(areaId => {
+      const area = [...areas].find(a => a.getAttribute('data-id') === areaId);
+      if (area) {
+          createMarker(area);
+      }
+  });
+
+  // Update counter initially
   const counter = document.createElement('div');
-  counter.className = 'counter';  
-  counter.innerHTML = '0/4';
-  counter.style.top = '20%';  
-  counter.style.right = '15%'; 
+  counter.className = 'counter';
+  counter.innerHTML = `${alreadyMarked.size}/4`;
+  counter.style.top = '20%';
+  counter.style.right = '15%';
   imageContainer.appendChild(counter);
 
   areas.forEach(area => {
@@ -68,7 +88,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
           if (!alreadyMarked.has(areaId)) {
               alreadyMarked.add(areaId);
-              
+              // Save the marked areas to session storage
+              sessionStorage.setItem('markedAreas', JSON.stringify([...alreadyMarked]));
+
               // Update counter value
               counter.innerHTML = `${alreadyMarked.size}/4`;
 
@@ -76,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
               createMarker(area);
           }
 
-          e.stopPropagation(); 
+          e.stopPropagation();
       });
   });
 
@@ -89,8 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const x = parseInt(coordinates[0], 10);
       const y = parseInt(coordinates[1], 10);
 
-      marker.style.left = (x - 10) + 'px'; 
-      marker.style.top = (y - 10) + 'px'; 
+      marker.style.left = (x - 10) + 'px';
+      marker.style.top = (y - 10) + 'px';
 
       imageContainer.appendChild(marker);
   }
@@ -107,31 +129,30 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
 // Instructions for dependent tooltip text
-document.addEventListener('DOMContentLoaded', function() { 
-  let areas = document.querySelectorAll("#image-container area"); 
-  let tooltip = document.getElementById("tooltip"); 
+document.addEventListener('DOMContentLoaded', function() {
+  let areas = document.querySelectorAll("#image-container area");
+  let tooltip = document.getElementById("tooltip");
 
   areas.forEach(function(area) {
       area.addEventListener("mouseenter", function() {
-          let tooltipText = area.getAttribute("data-tooltip-text"); 
-          tooltip.textContent = tooltipText; 
-          tooltip.style.display = "block"; 
+          let tooltipText = area.getAttribute("data-tooltip-text");
+          tooltip.textContent = tooltipText;
+          tooltip.style.display = "block";
       });
 
       area.addEventListener("mouseleave", function() {
-          tooltip.style.display = "none"; 
+          tooltip.style.display = "none";
       });
   });
 });
 
 $(document).ready(function() {
   $('.image-container').hover(
-      function() {  // Mouse enters the map
+      function() { // Mouse enters the map
           $('#fixedTooltip').show();
-      }, 
-      function() {  // Mouse leaves the map
+      },
+      function() { // Mouse leaves the map
           $('#fixedTooltip').hide();
       }
   );

@@ -105,7 +105,27 @@ body {
     transform: translate(-50%, -50%);
     display: none; 
 }
+.restart-button {
+    position: absolute;
+    top: 20%;
+    right: 23%; /* Adjust to position it correctly */
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8); /* original colour: background-color: #333; color: white; */
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 10; /* this doesn't seem to be doing anything */
+    border: 1px solid black; /* This line adds a black border */
+    font-size: 1rem;
+}
 
+.restart-button:hover {
+    background-color: #555;
+}
+html {
+scroll-behavior: auto;
+}
 </style>
 
 <h1 class="center-wrapper2"><img src="/img/treasure-map.png" alt="Treasure Map">"Treasure Map" Heritage Hunt</h1>
@@ -116,6 +136,7 @@ body {
 
 <div id="image-container">
   <img src="/img/Veale-Map-1935.jpg" id="image-map" alt="Adelaide CBD" usemap="#image-map">
+    <button class="restart-button">Restart Game</button>
   <div id="tooltip" class="tooltip">Tooltip</div>
     <map name="image-map">
       <area shape="rect" coords="410,570,435,615" data-id="area1" data-popup="popup1" data-tooltip-text="Hindmarsh Square" data-marker-coordinates="430,620">
@@ -146,4 +167,26 @@ body {
         <p><a href="/360/streetviewlight/">Link to VR view.</a></p>
       </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // ... existing JavaScript code ...
+
+    // Check if there's a saved scroll position in sessionStorage
+    if(sessionStorage.getItem('scrollPosition')) {
+        const savedPosition = parseInt(sessionStorage.getItem('scrollPosition'), 10);
+
+        // Use the smooth scroll effect to scroll to that position
+        window.scrollTo({
+            top: savedPosition,
+            behavior: "auto"
+        });
+    }
+
+    // Save the current scroll position to sessionStorage when leaving the page
+    window.addEventListener('beforeunload', function() {
+        sessionStorage.setItem('scrollPosition', window.scrollY.toString());
+    });
+});
+</script>
+<!-- originally commented out auto scroll because it might look less profesh but maybe I should keep it -->
 <!--<p style="font-size:14px;"><i>All descriptions' credit to Alexander Cocks on his history Facebook group, <a href="https://www.facebook.com/groups/3448281651944687/">Adelaide Then And Now.</i></a></p>-->
