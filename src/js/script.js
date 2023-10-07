@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
  /* map image new javascript version 
 */
-
 document.addEventListener('DOMContentLoaded', function() {
   const areas = document.querySelectorAll('area');
   const popups = document.querySelectorAll('.popup');
@@ -43,10 +42,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Create counter and append to the image container
   const counter = document.createElement('div');
-  counter.className = 'counter';  // Use className for consistency
+  counter.className = 'counter';  
   counter.innerHTML = '0/4';
-  counter.style.top = '20%';  // Moved down by 25%
-  counter.style.right = '15%'; // Moved left by 25% from the right
+  counter.style.top = '20%';  
+  counter.style.right = '15%'; 
   imageContainer.appendChild(counter);
 
   areas.forEach(area => {
@@ -74,18 +73,25 @@ document.addEventListener('DOMContentLoaded', function() {
               counter.innerHTML = `${alreadyMarked.size}/4`;
 
               // Create marker
-              createMarker(e);
+              createMarker(area);
           }
 
-          e.stopPropagation(); // Prevents this click from being immediately captured by the document click listener
+          e.stopPropagation(); 
       });
   });
 
-  function createMarker(e) {
+  function createMarker(area) {
       const marker = document.createElement('div');
       marker.className = 'x-marker';
-      marker.style.top = (e.clientY - imageContainer.getBoundingClientRect().top - 10) + 'px';
-      marker.style.left = (e.clientX - imageContainer.getBoundingClientRect().left - 10) + 'px';
+
+      // Get marker coordinates from the area
+      const coordinates = area.getAttribute('data-marker-coordinates').split(',');
+      const x = parseInt(coordinates[0], 10);
+      const y = parseInt(coordinates[1], 10);
+
+      marker.style.left = (x - 10) + 'px'; 
+      marker.style.top = (y - 10) + 'px'; 
+
       imageContainer.appendChild(marker);
   }
 
@@ -102,7 +108,34 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+// Instructions for dependent tooltip text
+document.addEventListener('DOMContentLoaded', function() { 
+  let areas = document.querySelectorAll("#image-container area"); 
+  let tooltip = document.getElementById("tooltip"); 
 
+  areas.forEach(function(area) {
+      area.addEventListener("mouseenter", function() {
+          let tooltipText = area.getAttribute("data-tooltip-text"); 
+          tooltip.textContent = tooltipText; 
+          tooltip.style.display = "block"; 
+      });
+
+      area.addEventListener("mouseleave", function() {
+          tooltip.style.display = "none"; 
+      });
+  });
+});
+
+$(document).ready(function() {
+  $('.image-container').hover(
+      function() {  // Mouse enters the map
+          $('#fixedTooltip').show();
+      }, 
+      function() {  // Mouse leaves the map
+          $('#fixedTooltip').hide();
+      }
+  );
+});
 
 /* map image original javascript version (no x) 
 

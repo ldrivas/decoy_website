@@ -3,6 +3,7 @@ title: Heritage Map
 layout: layout_with_header.njk
 ---
 
+<!-- fix tooltip-->
 <style>
   body {
       font-family: Arial, sans-serif;
@@ -92,6 +93,19 @@ body {
     z-index: 10;
     border: 1px solid black; /* This line adds a black border */
 }
+.tooltip {
+    position: absolute; /* Use fixed positioning to position relative to the viewport */
+    top: 350px; /* Place it 50% from the top */
+    left: 50%; /* Place it 50% from the left */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 10;
+    border: 1px solid black; /* This line adds a black border */
+    transform: translate(-50%, -50%);
+    display: none; 
+}
+
 </style>
 
 <h1 class="center-wrapper2"><img src="/img/treasure-map.png" alt="Treasure Map">"Treasure Map" Heritage Hunt</h1>
@@ -102,11 +116,13 @@ body {
 
 <div id="image-container">
   <img src="/img/Veale-Map-1935.jpg" id="image-map" alt="Adelaide CBD" usemap="#image-map">
+  <div id="tooltip" class="tooltip">Tooltip</div>
     <map name="image-map">
-      <area shape="rect" coords="400,550,500,650" data-id="area1" data-popup="popup1">
-      <area shape="rect" coords="270,500,340,550" data-id="area2" data-popup="popup2">
-      <area shape="rect" coords="320,500,360,600" data-id="area3" data-popup="popup3">
-      <area shape="rect" coords="200,400,300,600" data-id="area4" data-popup="popup4">
+      <area shape="rect" coords="400,550,500,650" data-id="area1" data-popup="popup1" data-tooltip-text="Hindmarsh Square" data-marker-coordinates="430,620">
+      <area shape="rect" coords="270,500,340,550" data-id="area2" data-popup="popup2" data-tooltip-text="Railway Station" data-marker-coordinates="300,560">
+      <area shape="rect" coords="320,500,360,600" data-id="area3" data-popup="popup3" data-tooltip-text="Hindley Street" data-marker-coordinates="340, 590">
+      <area shape="rect" coords="200,400,300,600" data-id="area4" data-popup="popup4" data-tooltip-text="Light Square" data-marker-coordinates="245,620">
+      
   </map>
   <div id="popup1" class="popup">
       <img src="/img/hindmarsh.jpg" alt="Photo 1">
