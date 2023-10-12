@@ -154,16 +154,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-$(document).ready(function() {
-  $('.image-container').hover(
-      function() { // Mouse enters the map
-          $('#fixedTooltip').show();
-      },
-      function() { // Mouse leaves the map
-          $('#fixedTooltip').hide();
-      }
-  );
-});
+// $(document).ready(function() {
+//   $('.image-container').hover(
+//       function() { // Mouse enters the map
+//           $('#fixedTooltip').show();
+//       },
+//       function() { // Mouse leaves the map
+//           $('#fixedTooltip').hide();
+//       }
+//   );
+// });
 
 /* map image original javascript version (no x) 
 
