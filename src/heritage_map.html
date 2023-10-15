@@ -129,6 +129,7 @@ scroll-behavior: auto;
 .restart-button.disabled {
     pointer-events: none; /* This will make the button unclickable */
 }
+
 </style>
 
 <h1 class="center-wrapper2"><img src="/img/treasure-map.png" alt="Treasure Map">"Treasure Map" Heritage Hunt</h1>
@@ -136,6 +137,25 @@ scroll-behavior: auto;
 <p>🗺️ This map was drawn in the year 1935 <a href="https://www.experienceadelaide.com.au/photo-library/historical-maps-of-adelaide/veale-map-1935/">by the engineer W.C.D. Veale!</a></p>
 <p>🔍 As you move your cursor over the map, it will transform into an "<span style="color:red"><b>X</b></span>" over interactive spots. Clicking these areas will reveal historical insights or transport you into a virtual reality streetview journey.</p>
 <p>Try clicking on Hindmarsh Square!</p>
+
+<script type="text/javascript">
+window.onload = function() {
+t = document.querySelector('#image-container')
+cooldown_t = 0
+t.addEventListener('mousemove', (e) => {
+    clearTimeout(cooldown_t)
+    copy = e
+    cooldown_t = setTimeout(copy => {
+        var rect = t.getBoundingClientRect();
+        var x = e.clientX - rect.left;
+        var y = e.clientY - rect.top;
+        console.log("x:" + x + " y:" + y);
+    }, 250)
+})
+};
+
+
+</script>
 
 <div id="image-container">
   <img src="/img/Veale-Map-1935.jpg" id="image-map" alt="Adelaide CBD" usemap="#image-map">
@@ -147,7 +167,19 @@ scroll-behavior: auto;
       <area shape="rect" coords="270,500,340,535" data-id="area2" data-popup="popup2" data-tooltip-text="Railway Station" data-marker-coordinates="300,560">
       <area shape="rect" coords="300,540,350,580" data-id="area3" data-popup="popup3" data-tooltip-text="Hindley Street" data-marker-coordinates="340, 590">
       <area shape="rect" coords="220,570,260,625" data-id="area4" data-popup="popup4" data-tooltip-text="Light Square" data-marker-coordinates="245,620">
-      
+      <!-- <area shape="rect" coords="605,710,673,850" data-id="area5" data-popup="popup5" data-tooltip-text="Bottom oval" data-marker-coordinates="605,780">
+      <area shape="rect" coords="230,700,259,750" data-id="area6" data-popup="popup6" data-tooltip-text="Whitmore Square" data-marker-coordinates="253,752">
+      <area shape="rect" coords="320,650,350,715" data-id="area7" data-popup="popup7" data-tooltip-text="Victoria Square" data-marker-coordinates="342,688">
+      <area shape="rect" coords="415,700,440,750" data-id="area8" data-popup="popup8" data-tooltip-text="Hurtle Square" data-marker-coordinates="430,750">
+      <area shape="rect" coords=",,," data-id="area9" data-popup="popup9" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area10" data-popup="popup10" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area11" data-popup="popup11" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area12" data-popup="popup12" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area13" data-popup="popup13" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area14" data-popup="popup14" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area15" data-popup="popup15" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area16" data-popup="popup16" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780">
+      <area shape="rect" coords=",,," data-id="area17" data-popup="popup17" data-tooltip-text="Hurtle Square" data-marker-coordinates="605,780"> -->
   </map>
   <div id="popup1" class="popup">
       <img src="/img/hindmarsh.jpg" alt="Photo 1">
@@ -169,6 +201,36 @@ scroll-behavior: auto;
         <img src="/img/adelaide/lightsmall.jpg" alt="Photo 2">
         <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
         <p><a href="/360/streetviewlight/">Link to VR view.</a></p>
+      </div>
+      <div id="popup5" class="popup">
+        <img src="/img/adelaide/photos.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/link/">Link to VR view.</a></p>
+      </div>
+      <div id="popup6" class="popup">
+        <img src="/img/adelaide/photos.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/link/">Link to VR view.</a></p>
+      </div>
+      <div id="popup7" class="popup">
+        <img src="/img/adelaide/photos.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/link/">Link to VR view.</a></p>
+      </div>
+      <div id="popup8" class="popup">
+        <img src="/img/adelaide/photos.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/link/">Link to VR view.</a></p>
+      </div>
+      <div id="popup9" class="popup">
+        <img src="/img/adelaide/photos.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/link/">Link to VR view.</a></p>
+      </div>
+      <div id="popup10" class="popup">
+        <img src="/img/adelaide/photos.jpg" alt="Photo 2">
+        <p>A horse and cart trot towards Currie Street where three men hurriedly cross the busy intersection. Meanwhile a hatted individual inspects the <a href="/heritage_map/light">[read more...]</a></p>
+        <p><a href="/360/link/">Link to VR view.</a></p>
       </div>
 </div>
 <script type="text/javascript" src="/js/imagesizermap.min.js"></script>
