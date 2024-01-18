@@ -400,3 +400,4 @@ function getCurrentDayAndTimeInAdelaide() {
   return { day, timeInMinutes };
 }
 
+
