@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Update counter initially
   const counter = document.createElement('div');
   counter.className = 'counter';
-  counter.innerHTML = `${alreadyMarked.size}/4`;
+  counter.innerHTML = `${alreadyMarked.size}/12`;
   counter.style.top = '20%';
   counter.style.right = '15%';
   imageContainer.appendChild(counter);
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
               sessionStorage.setItem('markedAreas', JSON.stringify([...alreadyMarked]));
 
               // Update counter value
-              counter.innerHTML = `${alreadyMarked.size}/4`;
+              counter.innerHTML = `${alreadyMarked.size}/12`;
 
               // Create marker
               createMarker(area);
