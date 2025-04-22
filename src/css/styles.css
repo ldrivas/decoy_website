@@ -40,7 +40,7 @@ body {
 }
 
 #content {
-  width: 1000px;
+  /* width: 1000px; */
   height: 355px;
   border-radius: 10px;
   border: 2px solid #ffbfce;
@@ -193,4 +193,12 @@ a:hover {
 
 #credit a:hover {
   color: #e7f0f0;
+}
+
+article {
+  width: 1000px;
+}
+
+#base-content {
+  width: 305px;
 }
