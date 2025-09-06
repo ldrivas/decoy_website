@@ -2,6 +2,7 @@
 title: On sacramentality, phones, metaphysics
 date: 2025-06-06
 tags: blog
+layout: blog.njk
 ---
 
 <p>"A spiritual experience reveals a reality of life beyond the self, beyond the here and now. It may be recognition of our own fragility and vulnerability as much as a joyous awareness of a reality beyond our normal encounter with life." - Paul McQuillan</p>
