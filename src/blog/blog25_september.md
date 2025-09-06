@@ -10,7 +10,7 @@ layout: blog.njk
 - 
 
 <h3>hyperreality</h3>
-I've been reading a lot about this concept and it's pretty interesting. I watched the Adam Curtis documentary <a href="https://www.youtube.com/watch?v=Gr7T07WfIhM">hypernormalisation</a> (which flirts with the concept) when I was about 19 but was a little too young to get it, so I just let the pretty visuals and heavy sounding words wash over me like a nice gentle tide I could later namedrop to sound impressive to my older friends
+I've been reading a lot about this concept and it's pretty interesting. I watched the Adam Curtis documentary <a href="https://www.youtube.com/watch?v=Gr7T07WfIhM">hypernormalisation</a> (which, to my recollection, flirts with the concept) when I was about 19 but was a little too young to get it, so I just let the pretty visuals and heavy sounding words wash over me like a nice gentle tide I could later namedrop to sound impressive to my older friends
 
 Hypereality is when a simulation becomes more real than the thing being simulated. It's basically to do with the idea of nostalgia for the unreal, where you're searching for the feeling of something that is more exaggerated than its real life counterpart, with the belief it is more real. Eg. with nostalgia for the 90s - our nostalgia is hyperreal. We're not nostalgic for the actual 90s, with all its mundane parts to it, and even if we were, our version has become inevitably distorted due to the difference in time. So over time, the simulated 90s becomes the dominant version in our minds, the realer-than-real version. This video on hyperreality [is interesting too](https://www.youtube.com/watch?v=zUuiqFGviOU).
 
