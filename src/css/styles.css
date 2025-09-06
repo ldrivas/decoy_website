@@ -202,3 +202,117 @@ article {
 #base-content {
   width: 305px;
 }
+
+/* --- responsive fixes --- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* let the page scroll; avoid 100vh trap on mobile */
+  min-height: 100dvh;
+  width: 100%;
+  /* optional: center the whole layout and give it breathing room */
+  display: block;
+  background-color: #a2d5d5;
+  padding: 16px;
+}
+
+/* Use a responsive grid for main + sidebar */
+#all {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px; /* content grows, sidebar fixed */
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  align-items: start;
+}
+
+/* Let boxes size themselves by content (no fixed heights) */
+#leftbox,
+#leftcontent,
+#contentbox,
+#content,
+#right,
+#righttop,
+#rightmiddle,
+#rightbottom {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Make the main article nicely fluid */
+article {
+  width: 100%;
+  max-width: clamp(320px, 90vw, 70ch); /* 70ch ≈ comfy reading line-length */
+}
+
+/* Let content flow; avoid inner scrollbars cutting text off */
+#content {
+  overflow: visible;        /* was scroll */
+  border-radius: 10px;
+  border: 2px solid #ffbfce;
+  color: #425757;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  /* break long words/URLs on small screens */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Make images scale down on narrow viewports */
+img, #righttop img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sidebar blocks should expand to container width */
+#right { width: 100%; }
+#righttop, #rightmiddle, #rightbottom {
+  width: 100%;
+}
+
+/* Optional: make nav links full-width rows on mobile & desktop */
+#nav a {
+  display: inline-block;
+}
+.link1, .link2 {
+  width: 100%;
+  float: none;
+}
+
+/* --- mobile layout: stack sidebar under content --- */
+@media (max-width: 900px) {
+  #all {
+    grid-template-columns: 1fr;        /* single column */
+  }
+  /* ensure main column appears first, then sidebar */
+  #leftbox { order: 1; }
+  #right   { order: 2; }
+
+  /* remove any leftover fixed heights & add spacing */
+  #righttop, #rightmiddle, #rightbottom {
+    margin-bottom: 12px;
+  }
+}
+
+/* (Nice to have) reduce giant paddings/heights that were fixed earlier */
+#leftbox { padding: 10px; background-color: #ffbfce; border-radius: 10px; }
+#leftcontent { background-color: #fff; border-radius: 10px; box-shadow: 0 0 5px #d48aa8; }
+#content h1 {
+  margin: 0 0 10px 0;
+  border-bottom: 2px dotted #7ecca1;
+  color: #ffbfce;
+  font-weight: normal;
+  font-size: 26px;
+}
+
+/* Keep your custom scrollbar if you like; no change needed */
