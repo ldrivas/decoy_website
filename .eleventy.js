@@ -48,6 +48,12 @@ module.exports = function(eleventyConfig) {
     console.error("Failed to load Eleventy Navigation plugin.");
   }
 
+  // Add sorted blog collection (newest first)
+  eleventyConfig.addCollection("blog", (api) => {
+    return api.getFilteredByTag("blog")
+      .sort((a, b) => b.date - a.date); // newest first
+  });
+
   // Eleventy configuration object
   return {
     passthroughFileCopy: true,
@@ -59,4 +65,3 @@ module.exports = function(eleventyConfig) {
     }
   };
 };
-
