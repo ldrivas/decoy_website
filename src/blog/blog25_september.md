@@ -42,7 +42,7 @@ When I got home, my boyfriend gave me a talking-to where he turned Chat GPT on v
 
 All in all, I would say it was neutral experience, however if this was my first experience with a psychedelic trip, it could've been pretty hellish. I've enjoyed lower doses a lot where you just get chatty and peppy and ready to dance, so I personally had no idea that too much ketamine could feel like you're in a psychedelic washing machine for 40 minutes.
 
-<h3>strange grief</h3>
+<h3>strange aftershock</h3>
 
 This kind of ties into a more serious note. I attended a funeral this week for a teacher who, although I hadn't seen him for a couple of years, had stayed in contact with well past school had finished. He was an eccentric guy, always wearing loud colourful t-shirts and flagrantly ignoring the principal's dress code. He let us skive off a lot in class and once got in trouble for using the school labs to try to dehydrate his personal fish supply. Post-school, he would often love heart my instagram stories of me getting up to strange things most teachers would disapprove of. But he was beloved, and incredibly prolific in the school and local community. He lived nearby my mum and ran the local Facebook group, often turning up to new neighbour's doors with a clipboard ready to welcome them into the neighbourhood. He would also often travel to the Solomon Islands and had recently started a charity effort in a village there to get their curriculum up to scratch.
 
