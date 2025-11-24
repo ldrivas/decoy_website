@@ -316,3 +316,49 @@ img, #righttop img {
 }
 
 /* Keep your custom scrollbar if you like; no change needed */
+
+/* gallery */
+
+/* --- gallery layout --- */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.gallery-item {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid #ffbfce;
+  padding: 6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.08);
+  text-align: center;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+/* cute hover wiggle */
+.gallery-item:hover img {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.gallery-item figcaption {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #425757;
+}
+
+/* tweak heading spacing above gallery */
+#content h1 {
+  margin-bottom: 12px;
+}
