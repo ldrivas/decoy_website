@@ -24,23 +24,7 @@ Planning to write more on this blog later. All I've got to say for now, it's goo
 
 <img src="/img/8rn0mzpnunz61.jpg">
 
-I haven't done any kind of psychedelics properly since trying to be more of a responsible adult, and then very recently decided to indulge and accidentally did way too much ketamine, and ended up K-holing so hard I temporarily had no idea where or who I was.
-
-To describe the experience, I couldn't properly see anything, so my vision was just hallucinations of sounds as three-dimensional objects coming towards me. Everything sounded like Windows 95 error sounds, and I was convinced at one point that people I work with were there and witnessing me like this. I was so confused and stuck in that one spot on the couch that it felt like that forty minutes stretched to six hours, and everything had that "nefarious robot/metallic" kind of feeling to it that's hard to describe (like the world was made of metal grids or circuitry instead of organic textures). There was also a reverberation to voices and other noises, so the room I was in sonically felt like a metal chamber with sounds having a tinny midi-like autotuned filter over them.
-
-In the meantime, I still could barely see, because the levels of synaesthesia impacting my vision combined with general hallucinations made everything look like a repeating chamber of nonsensical geometric shapes that I could occasionally make out to be people and objects in the room.
-
-I would have occasional moments of clarity, where while my vision was still totally fucked with computerised hallucinations, and I still didn't one hundred percent know where I was (and how long this had been happening, who was there, what drug I'd taken, etc), I could, however, occasionally recall I was at some kind of party with my friends sitting next to me, and I was also both slightly worried about what was happening and also knew I was potentially making a fool of myself in front of others. So through my garbled unresponsive mouth muscles I would use those moments of clarity to fix a statement together like, "What the fuck is going on...", making the statement with an exaggerated expression of incredulity to diffuse my unease with humour and hide the fact that I legitimately did not know what was going on, and then using others' seemingly amused reactions as reassurance that nothing horrible was happening.
-
-I will say that a positive effect of this dose, is it functionally had the effect of a psychedelic trip where I felt a resounding sense of togetherness in the world or whatever, the kind where you feel like you're "seeing through time" with your life mashing together and you're mentally sorting things into "useful/not useful".
-
-When I was coming down, I started blubbering/reminiscing about my teacher who I had just attended a funeral for to the aforementioned friends. I tried to articulate these profound thoughts of kindness and love prevailing over everything else, and would've sounded like the most stereotypical cooked-out person.
-
---
-
-When I got home, my boyfriend gave me a talking-to where he turned Chat GPT on voicemode, and held it up while I was laying already hungover in bed, getting it to tell me facts about what can happen when you mix too much alcohol with ketamine. Then, as if to add insult to injury, he prompted it to create a eulogy for if I had died, as well as what he would have to post on social media, and a script for what he would say to my family on the phone to let them know I'd died unceremoniously on a couch at a party. An uncommon method but an effective one that, probably only my boyfriend, with his particular occasionally morbid sense of humour could pull off without it coming across as overtly depressing.
-
-All in all, I would say it was neutral experience, however if this was my first experience with a psychedelic trip, it could've been pretty hellish. I've enjoyed lower doses a lot where you just get chatty and peppy and ready to dance, so I personally had no idea that too much ketamine could feel like you're in a psychedelic washing machine for 40 minutes. Probably won't do anything like this again for some time.
+*I've removed this anecdote about going a bit too hard at a party, as while it's funny it's probably a little too much to have on the internet. Ask me sometime for the story.*
 
 <h3>Sad events</h3>
 
