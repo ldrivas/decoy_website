@@ -12,7 +12,7 @@ layout: blog.njk
 
 
 
-Most of the year has disappeared into finishing my degree, working my final teaching placement at a pretty fancy private school, which in turn eventuated in handing in my resignation at a job that's occupied a pretty large part of my life for the last couple years. And now have a lot more time on my hands - enough time to actually finish a blog post.
+Most of the year has disappeared into finishing my degree, working my final teaching placement at a pretty fancy private school, which in turn eventuated in handing in my resignation at a job that's occupied a pretty large part of my life for the last couple years. And now have a lot more time on my hands - enough time to actually finish a blog post. 
 
 
 
