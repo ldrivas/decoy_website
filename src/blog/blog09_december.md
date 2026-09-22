@@ -32,12 +32,35 @@ Admin was actually pretty straightforward:
 - I went with Freely travel insurance, which covered up to $100,000 for a single hospital visit (because it's the US and anything can happen with hospital debt)
 - I set up Wise for banking because they seemed to have low fees and a pretty simple setup
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="/img/america/1.jpg" style="width: 100%;">
-  <img src="/img/america/2.jpg" style="width: 100%;">
-</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 
-[Everything I packed - I did not need most of these clothes at all]
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/1.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/2.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+</div>
 
 <h4><i>Day 0:</i></h4>
 
@@ -61,7 +84,7 @@ I arrived at 7am and stayed at West Hollywood Banana Bungalow.
 
 <img src="/img/america/4.jpg" style="width: 50%;">
 
-[Banana Bungalow activity board - Immaculate karaoke vibes. Experienced party-transport decision paralysis with a group of backpackers too large for an Uber]
+[Immaculate karaoke vibes and experienced party-transport decision paralysis with a group of backpackers too large for an Uber]
 
 <h4><i>Sights</i></h4>
 
@@ -70,8 +93,6 @@ Very first stop was to get some walking shoes. which I deliberately didn't pack 
 I also went to this weird little shopping mall that reminded me of a more up-market Rundle Mall.
 
 <img src="/img/america/3.jpg" style="width: 50%;">
-
-[Had to try Starbucks - it's incredibly sweet]
 
 <h4><i>Machine Girl</i></h4>
 
@@ -90,22 +111,41 @@ I fell asleep about midnight and woke up 9am, so was still running on maybe 3 or
   <img src="/img/america/8.jpg" style="width: 100%;">
 </div>
 
-
-
-
-
-[My humble abode]
-
 <h4><i>Day 2:</i></h4>
 
 <h4><i>Architecture</i></h4>
 
 I spent a lot of Day 2 just walking around the suburbs and areas near downtown. They normally worsen a whole street. However, in some cases they just embody the place so well that they add rather than detract - think the brutalist prison-looking buildings you find in former Soviet countries. This is also true of these freakin' things:
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="/img/america/67.jpg" style="width: 100%;"><img src="/img/america/12.jpg" style="width: 100%;">
-</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/67.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/12.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+</div>
 
 
 
@@ -173,8 +213,6 @@ They're crazy over BBQ for some reason. A comedian mentioning barbecue in his se
 
 <img src="/img/america/22.jpg" style="width: 50%;">
 
-[Hey, it's that guy from Bugonia!]
-
 <h4><i>Discord</i></h4>
 
 I met up with someone through a loose Discord connection, and we caught up at his apartment one day and then attempted hiking the next. Unfortunately it was pouring down with rain so we made do with going to a nearby lookout, checking out the capitol and then eating some donuts which was lovely. A friend of his tagged along who runs a group chat for unemployed people to have hangouts during weekday daytime hours that regular-employed people aren't available for (apparently it's not very active yet).
@@ -188,11 +226,38 @@ They both had interesting (and very post-pandemic austin) jobs - one of them wor
 
 The hostel was great, apart from being right next to Dirty Sixth.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="/img/america/42.jpg" style="width: 100%;">
-  <img src="/img/america/44.jpg" style="width: 100%;">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/42.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/44.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
 </div>
 
+<p>
 [“Secret” bar entrance behind a bookshelf and the bar inside the hostel]
 
 <h4><i>Other Things</i></h4>
@@ -201,19 +266,53 @@ There's a street called "Dirty Sixth" that's the main party street of the city. 
 
 <img src="/img/america/23.jpg" style="width: 50%;">
 
-[Dirty Sixth]
-
 On my final day in Austin I watched a drag queen while having a sandwich in a hostel courtyard. I also went to a market and did some drawing in the aforementioned park.
 
 I absolutely adored walking around the residential area admiring everyone's left-out Halloween decorations in their front yards. We don't really do much decorating here in Australia nor hang out on our front porch, so it was a nice vibe. Also the squirrels were adorable.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="/img/america/34.jpg" style="width: 100%;">
-  <img src="/img/america/39.jpg" style="width: 100%;">
-  <img src="/img/america/40.jpg" style="width: 100%;">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/34.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/39.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+<div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/40.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
 </div>
-
-
 
 
 
@@ -264,16 +363,37 @@ The hostel was nice and quiet, in a central location on the outskirts of the dow
 
 My hostel bunkmate was this quirky spunky young Mexican guy who flew into Portland just for Black Friday for some reason. He was obsessed with candy (especially Mexican candy) and kept bringing it up and offering it to me. I'd be like "what's for dinner?" and he'd be like "heh.... Got all I need right here" pointing to a box of the bubu lubus.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <img src="/img/america/65.jpg" style="width: 100%;">
-  <img src="/img/america/69.jpg" style="width: 100%;">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/65.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
+  <div style="position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+    <img src="/img/america/69.jpg"
+         style="
+           position: absolute;
+           inset: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           margin: 0 !important;
+           padding: 0 !important;
+         ">
+  </div>
+
 </div>
 
-<p>
-
-
-
-[A Bubu Lubu]
 
 <h4><i>Powell's</i></h4>
 
