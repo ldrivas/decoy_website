@@ -9,7 +9,7 @@ layout: blog.njk
 
 <p>--</p>
 
-<p>I decided to finally kick my blog off with a damp thud and put together a meandering post on only the most inoffensive topic I could muster: religion. Some people in my life, but not all, know that somewhat inexplicably, I have an ongoing interest in theology. I didn't grow up religious, my parents are both agnostic or atheist, however a few circumstances have resulted in this being a fun flavour in, sometimes the foreground, sometimes the background, of my life - those circumstances being a) my on-and-off work in Catholic schools, b) people close to me in my life being religious, and c) my choice on a whim to enroll in a theology course at university (and I guess you could also say the inevitable spiritual collapse of modern western society, but let's keep the tone light). I also like spirituality and religion as they're inherently vulnerable topics that demand us to agree we don't understand everything that's going on.</p>
+<p>I decided to finally kick my blog off with a damp thud and put together a meandering post on only the most inoffensive topic I could muster: religion. Some people in my life, but not all, know that somewhat inexplicably, I have an ongoing interest in theology. I didn't grow up religious, my parents are both agnostic or atheist, however a few circumstances have resulted in this being a fun flavour in, sometimes the foreground, sometimes the background, of my life - those circumstances being a) my on-and-off work in Catholic schools, b) people close to me in my life being religious, and c) my choice on a whim to enroll in an educational theology course at university (and I guess you could also say the inevitable spiritual collapse of modern western society, but let's keep the tone light). I also like spirituality and religion as they're inherently vulnerable topics that demand us to agree we don't understand everything that's going on.</p>
 
 <p>Anyway, I started writing this post as I'm no longer taking any theology studies at uni this semester, and I needed a place to write about intangible, wishy washy stuff in a slightly dense manner, but I guess this blog is more for me rather than any general audience. Anyway enjoy!</p>
 
@@ -39,7 +39,7 @@ layout: blog.njk
 
 <p>Sacramentality might even be the centre of theology itself - my tutor mentioned that one way of understanding theology is as the study of symbols and the meanings we draw from them. It's interesting to think of some things in our lives as anti-sacramental symbols, I suppose.</p>
 
-<p>On this note, I would like to end on this poem by William Blake that encapsulates these feelings:</p>
+<p>On this note, I would like to end on this poem by William Blake from the course that encapsulates these feelings:</p>
 
 <p>“To see a world in a grain of sand</p>
 <p>and a heaven in a wild flower.</p>
