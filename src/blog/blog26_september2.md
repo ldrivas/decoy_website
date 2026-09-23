@@ -38,7 +38,7 @@ And it's also done wonders for my ability to self-manage complex systems and pro
 
 
 
-On the flipside, it seems like teachers either are the best people you've ever met in life, or people who neglected to become nurses but still wanted to entertain their streak for control/bossiness. I met some pretty shocking teachers alongside the good ones - teachers who did nothing but seem to enjoy making their students feel like crap. I'm choosing to think of these interactions as, sometimes you have to meet flawed people to understand how to recognise and mitigate those flaws in yourself. 
+On the flipside, it seems like teachers either are the best people you've ever met in life, or people who neglected to become nurses but still wanted to entertain their streak for control/bossiness. Pardon the directness in me saying that, just I met some pretty shocking teachers alongside the good ones - teachers who did nothing but seem to enjoy making their students feel like crap. I'm choosing to think of these interactions as, sometimes you have to meet flawed people to understand how to recognise and mitigate those flaws in yourself. 
 
 
 
