@@ -79,7 +79,7 @@ I've had a thought going around my head about how Australians in corporate envir
 
 
 
-Coworkers will be working with you normally in the open-plan, then while chatting about something normal, like plans for next year or upcoming family events, they'll drop like "I had 3 miscarriages last year". Or that their father ran out on them when they were thirteen. Or they lost their license in the past due to polydrug addiction, like whatever it is. (Btw don't worry, these are not real examples)
+Coworkers will be working with you normally in the open-plan, then while chatting about something normal, like plans for next year or upcoming family events, they'll drop something out of nowhere, like their father ran out on them when they were thirteen. Or they lost their license in the past due to polydrug addiction, like whatever it is. (Btw don't worry, these are not real examples)
 
 
 
