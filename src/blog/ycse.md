@@ -1,0 +1,78 @@
+---
+title: YCSE
+date: 2026-09-21
+tags: blog
+layout: blog.njk
+
+---
+
+<h3>You Can See Everything - thoughts</h3>
+
+*Intro*
+
+A friend said, “This is the most Luciene-core movie ever” while I was explaining it to them and it’s true. It’s a movie about Elizabeth Holmes that left me thinking about how we lie, whether we know we’re lying and whether it matters if we know. Amongst a million gazillion other things, like the ethics of portraying someone everybody already thinks they understand. Or whether you can find something real and true in a friendship with someone who’s done something awful. It’s a very existential film. I came out of it feeling strangely uplifted.
+
+At some point you realise that what you’re watching is not really a documentary and the reenactments are the most obvious part of that. But it’s crazy how much the film could do with the real people, the interviews and all the ordinary materials of documentary but still feel like it becomes somewhat of a fiction or a myth by the end of it.
+
+I took copious notes right after watching the movie and have tried to reorganise them into them into subheadings. If any don’t take your interest then just skip to the next one.
+
+*Lying*
+
+My unprofessional opinion is that the best liars believe the lies they tell. When Nathan asks Elizabeth if she’s “ever lied in her life” I wonder how much she actually believes the way she answers this or the way she presents herself in general. Like maybe she’s really convinced herself she doesn’t really lie. Maybe she’s consciously lying about lying itself. Or maybe something can be wilful at one level and feel sincere at another level. You can know exactly what you’re saying and experience a retelling as true and still know on a level underneath that you’ve left something out. Maybe sometimes, we take a partial truth and treat it as the whole truth. So I’d wager all of us do that at some level, it’s just a matter of how severely, and the more completely and utterly you do that then the closer it gets to delusion. al called this “very Schopenhauerian”. Which from my meager understanding of that type of philosophy around the will and reasoning, I can see that it seems to be about how our desires can interact with our thinking that we *think* we’re doing quite independently and consciously. 
+
+Here’s an everyday example. I know I need to do some lesson planning before Monday. I have something in my calendar on Sunday afternoon, and I know I’ll be doing emails and other admin in the morning. So I have to make time around midday or else do the planning at night when I’m tired and crabby. Sunday rolls around and I decide I deserve to chill out before my engagement. Then *shocked pikachu* I have to do the lesson planning at night. I knew it was there the whole time, but somehow it still feels like a betrayal. It’s almost like I managed to delude myself that I wouldn’t have to do it.
+
+This is a much more grim example, but I thought of this concept too when I read Craig Silvey’s 9,000 word apology that he published. Craig Silvey is a recently disgraced children’s author who I read in uni as part of my children’s literature course, and he was recently found to be guilty of possessing and distributing CSM. He admitted to the offences on face value and wrote at length about his past trauma and how he’d wanted to escape his distress. And at sentencing his lawyer made the argument that he sought out the material just to numb himself and had no sexual interest in children (this is also what Silvey echoed in his apology essay). Just the degree of detail of the chats obtained by police that were read out in court make that explanation very hard for me to take as a whole story. But the weird thing is that Silvey might himself believe it even though it clearly does not appear to be true. And the judge also rejected this as a complete explanation of his behaviour.
+
+So, a self-sabotage explanation has a certain rhetorical advantage. How would you prove that you’re not trying to self-sabotage by doing something horrible? You can’t. And Silvey could sincerely believe that was part of it. People defending indefensible behaviour can thrive in that ambiguity – maybe unconsciously and desperately rather than in an upfront conscious fashion. I find the subject fraught because if some version of this is true of people on a major level, the capacity must exist in the rest of us to some degree. The lesson planning example is trivial but I’m sure you can extrapolate it to any part of your life.
+
+*Gender and men*
+
+Liz definitely has elements of dissociatiation and destabilisation of identity. The Elizabeth that she was was just so jarringly different, so confident and cruel according to so many employees. This Liz seems helpless and gentle, weak and confused. It's a total 180. I'm not saying that it's not genuine, but it points to a kind of drastic switching of identities based on her environment. 
+
+Elizabeth attaches herself to men to see the world through their eyes, through their truth. I think it's very possible that she deluded herself and made herself manipulate facts about Theranos because she wanted so much to believe in the future that Sunny wanted for Theranos.
+
+I'm not saying that to downplay her role at all, as it still means she's guilty and committed these crimes and was abusive to her employees and everyone involved in Theranos, just it's an interesting theory for a motive. She might have been able to think of herself as a good person doing good work long after she knew the facts she was giving people were false. I find that more interesting than the idea of an evil genius consciously juggling every move.
+
+I would believe this theory of seeking male control too, because she actually ends up attaching herself to Nathan during the documentary. Revealing far more than she needs to about her personal life, the company and her family - often to Billy's chagrin or subtle attempts to remove her from the cameras. Fielder said in an interview after the documentary came out, she had called him from prison, and again, stated she "trusted him". I don't think this is a conscious attempt to manipulate - I think just squarely that she decided Fielder was a male figure who she wanted to trust and follow as the controlled woman. And it makes sense if the theory about her seeking men who control is true - fielder certainly, like it or not, has so much control in this situation and she might be attracted (not necessarily romantically) to the idea of being under his control.
+
+*The Map and the Territory*
+
+It felt Houellebecqian to me. Humour me briefly, for the slight tangent already – there’s a book called The Map and the Territory by Michel Houellebecq and it’s all about art and representation. It’s about an artist who starts making art out of Michelin maps comparing them to real life satellite photos – the artist shows how the maps pick out things like roads, lakes, places of interest, etc. and how they distort perspective and distance. He becomes a famous artist and develops notoriety as a figure himself.
+
+It’s named after the phrase “the map is not the territory” (and in this phrase, the territory is the world itself). Basically saying, a representation will always occupy its own space and time and bias and interests. As part of this plot, Michel Houellebecq (who is a controversial and celebrity figure in France outside of his books) also put himself into it as a character, so you’re dealing with a) the author who wrote the book, b) the existing public persona outside of the book and c) the character he made out of synthesising all of those things. Obviously this has a lot of similarities to YCSE which I found interesting.
+
+Another example in the book is where the artist character tries to paint a politician, and he has so many pictures of this politician but they all give variations of the same persona (one that’s polished and salesmanish). So he finds that the existence of these portrayals almost self-replicate more potentially biased evidence, as his paintings would be a portrayal of a portrayal. Since he can’t work out how to accurately paint the contradictions that he senses in this person, he destroys the canvas rather than surrender to <a href="https://renlr.neocities.org/blog/blog25_september/">hyperreality</a>.
+
+The point of that aspect of the book is that the representation becomes more influential than the person/thing it intends to show, and if you already know Elizabeth Holmes through The Dropout or the existing documentaries, then you’re bringing those versions into the movie with you too, and then those earlier portrayals become part of this movie’s portrayal in turn.
+
+*Cinematography*
+
+I thought the shots were beautiful, especially the close-ups. You can see every tiny change in someone’s face while losing sight of what’s going on around them. There’s something pretty plainly ironic on a straightforward level calling it You Can See Everything when even the framing of the shots are so claustrophobic.
+
+*Performing/Authenticity*
+
+This entire movie really goes into Nathan Fielder’s obsession with the line between performing and being authentic and how everyone is doing some of both. For instance when we’re being sincere, we still have to select our words and regulate our expressions and think about who’s listening, just as a part of natural communication. I really feel this as an autistic person, and sometimes being authentic as a person comes with pretty immediate consequences. Like I can say the wrong thing, or come across as cold or distant or odd or whatever, or miss a social cue I might’ve needed somebody to explain to me. So it results in this contradiction where I might be choosing my words very carefully and still mean them all at the same time (or at least, believe I do). I wonder if a completely unperformed self is even something another person can have access to – but I honestly wouldn’t be surprised if we couldn’t ever reach that. (I go into this in my [Her review](https://letterboxd.com/ignoranimus/film/her/) as well.)
+
+Basically, this movie puts forward a great theory that telling the truth and being authentic and being yourself isn’t really a straightforward neat binary process.
+This all also ties in also to my headcanon (and probably everyone’s at this point) that Nathan Fielder is autistic himself and has potentially navigated life having to consciously learn all these micro-expressions and social norms rather than be able to just pick them up organically and authentically. I really do think that this is where his fascination with this topic probably comes from. It feels personal (or maybe he just *wants* you to think it’s personal – 5D chess maybe?).
+
+The “Who’s on First?” part was unbelievable. Loved it. Elizabeth seems to recognise that she’s watching something funny without being able to say why it’s funny. Why? Maybe because she’s tired, maybe because she’s neurodivergent in some way, maybe because she’s deliberately using this as an opportunity to change the on-camera perception of herself to *be* someone who’s clueless? Whatever the answer actually is (and none of us will ever know) the more time Nathan Fielder stays on that question is the more you find yourself looking at her and analysing and nitpicking for any evidence about what kind of person she is. All this because she may or may not have understood a joke. Awe some sauce.
+
+*Weaknesses*
+
+Billy is one of the funniest parts of the film, and his portrayal sometimes feels a bit cheap. We spend so much time being asked to think about and consider Liz, and the film makes it remarkably easy to hate Billy. I don’t think it gives him the same room to be a serious character. That messes with the film’s own logic a bit. I also think, even if the film is self-referential or self-aware about what it is leaving out, it still doesn’t escape that there are potentially ethical questions about leaving out so much of the Theranos story. I could easily see people walking out of the theatre wondering if Elizabeth was not aware at all of the extent of the lying and Fraud going down at Theranos – when in reality she was aware of this, and also even hired people to stalk and harass the employees who spoke out about it.
+
+*Conclusion*
+
+One reaction I keep seeing online is basically “Oh, you felt bad for her? Then damn she got you”. I felt bad for her at times and deceived by her at others and neutral at other times. And this is similar for Nathan where he seems to care about her and distrust her at the same time. She can be a loving mother and also someone who lied and still struggles to own up to what she did. It’s possible to recognise all of that and take what happened at Theranos seriously.
+
+There’s an obvious question about whether you can ever really know another person. I’m more interested in what you owe them when you know enough to condemn what they did and can still only partly understand them. Also, even if someone is cut and dry immoral, can you find uniting factors and friendship in them that's real and true? I believe so. I really liked that this seemed to be a theme in the film and I feel like I haven't seen that talked about as much. The part in the movie where she said love was God, that was the realest thing I think she said in the film.
+
+All in all, I loved that this movie lead to explorations of about 15 different themes, but most squarely, how we lie, whether we are conscious we are lying, whether it matters if we are conscious we are lying, gender dynamics.
+
+--
+
+Add to essay:
+
+- Amanda Seyfried gets caught in a lie herself. She says that nothing about her portrayal of Holmes was unethical when this is clearly more of a grey area. It's interesting how this ties into the whole theme of the movie. Amanda herself builds her own version of the truth that might be more motivated by the world she wants to believe in rather than the world she occupies. 
