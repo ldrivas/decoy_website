@@ -362,3 +362,45 @@ img, #righttop img {
 #content h1 {
   margin-bottom: 12px;
 }
+
+
+/* bullshit vibecoding */
+
+@media (max-width: 600px) {
+  body {
+    padding: 8px 6px;
+  }
+
+  #all {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #leftbox {
+    padding: 6px;
+  }
+
+  #contentbox,
+  #imgbox {
+    padding: 6px;
+  }
+
+  article {
+    max-width: 100%;
+  }
+
+  #content {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #content h1 {
+    font-size: 22px;
+  }
+
+  #img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 345 / 100;
+  }
+}
